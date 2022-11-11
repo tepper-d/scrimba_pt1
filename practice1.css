@@ -1,0 +1,172 @@
+/*
+CIS 124: Introduction to JavaScript
+Scrimba Practice 1
+https://scrimba.com/playlist/p5vWxtd
+
+Dominique Tepper, 06NOV2022
+*/
+
+/* BODY. Tepper, 06NOV2022*/
+body {
+    font-family: 'Zilla Slab', serif;
+    background-color: #E6FAFC;
+    margin: 0 auto;
+    width: 500px;
+    border: 3px solid #E27396;
+    padding: 0 2em 1em;
+    color: #1D1E2C;
+}
+
+/* FOOTER. Tepper, 06NOV2022*/
+footer {
+    font-family: 'Zilla Slab', serif;
+    font-display: block;
+    background-color: #59656F;
+    width: 310px;
+    color: #EA9AB2;
+    padding-left: 38%;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+/* HEADERS. Tepper, 06NOV2022*/
+h1 {
+    font-family: 'Zilla Slab', serif;
+    font-size: 45px;
+    color: #E27396;
+    font-weight: bolder;
+}
+
+h3 .home-el{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 75px;
+    color: #E27396;
+    font-weight: bolder;
+}
+
+h3 .away-el{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 75px;
+    color: #E27396;
+    font-weight: bolder;
+}
+
+/* CONTAINERS. Tepper, 06NOV2022*/
+div {
+    margin-bottom: 1em;
+}
+
+.card01 {
+    font-family: 'Zilla Slab', serif;
+    font-display: block;
+    background-color: #efbccb;
+    width: 495px;
+    color: #1D1E2C;
+    padding-left: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.card02 {
+    font-family: 'Zilla Slab', serif;
+    font-display: block;
+    background-color: #59656F;
+    width: 495px;
+    color: #efbccb;
+    padding-left: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.scoretag {
+    font-family: 'Bungee Spice', cursive;
+}
+
+.scorebox {
+    background-color: #59656F;
+}
+
+.home-el {
+    background-color: #59656F;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.away-el {
+    background-color: #59656F;
+    font-family: 'Press Start 2P', cursive;
+
+}
+
+/* IMAGES. Tepper, 06NOV2022*/
+.shoe {
+    width: 60%;
+    height: 60%;
+    padding-left: 20%;
+    padding-top: 3%;
+}
+
+/* BUTTON. Tepper, 06NOV2022*/
+button {
+    font-family: 'Zilla Slab', serif;
+    background: #E27396;
+    color: #1D1E2C;
+    margin-top: 10px;
+    border: 1px solid #EA9AB2;
+    padding: 10px 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+button a:link {
+    text-decoration: none;
+}
+
+button a:visited {
+    text-decoration: none;
+    color: #1D1E2C;
+}
+
+button a:hover {
+    text-decoration: none;
+    color: #1D1E2C;
+}
+
+button a:active {
+    text-decoration: none;
+    color: #1D1E2C;
+}
+
+span {
+    padding-left: 35%;
+}
+
+#shoename {
+    padding-left: 30%;
+    font-weight: bolder;
+}
+
+/* ERROR. Tepper, 06NOV2022*/
+#error {
+    color: #9de100;
+    font-weight: bolder;
+    padding-left: 22%;
+}
+/*
+font-family: 'Zilla Slab', serif;
+<font> Raisin Black: 1D1E2C
+<bg> Azure X 11 Web Color: E6FAFC
+<h> Cyclamen: E27396
+<footer> Black Coral: 59656F
+<> Amaranth Pink: EA9AB2
+
+<link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Press+Start+2P&display=swap" rel="stylesheet">
+
+font-family: 'Bungee Spice', cursive;
+font-family: 'Press Start 2P', cursive;
+*/

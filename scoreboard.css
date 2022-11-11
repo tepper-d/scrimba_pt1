@@ -1,0 +1,104 @@
+/*CIS 124: Introduction to JavaScript
+Scrimba Practice 1
+https://scrimba.com/playlist/p5vWxtd
+Dominique Tepper, 06NOV2022*/
+
+/* BODY. Tepper, 06NOV2022*/
+body {
+    font-family: 'Zilla Slab', serif;
+    background-color: #E6FAFC;
+    margin: 0 auto;
+    width: 500px;
+    border: 3px solid #E27396;
+    padding: 0 2em 1em;
+    color: #1D1E2C;
+}
+
+.reset {
+    text-align: center;
+}
+
+.home-score, .away-score {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 60px;
+    text-align: center;
+}
+
+.scoretag {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 35px;
+}
+
+/* FOOTER. Tepper, 06NOV2022*/
+footer {
+    font-family: 'Press Start 2P', cursive;
+    font-display: block;
+    text-align: center;
+    width: 500px;
+    color: #EA9AB2;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+/* CONTAINERS. Tepper, 10NOV2022 */
+div {
+    margin-bottom: 1em;
+}
+
+.tag-wrap {
+    background-color: #EA9AB2;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1D1E2C;
+    color:#E27396;
+}
+
+/* BUTTONS. Tepper, 10NOV2022 */
+.button1 {
+    font-family: 'Press Start 2P', cursive;
+    background: #EA9AB2;
+    color: #1D1E2C;
+    margin-top: 10px;
+    border: 1px solid #E27396;
+    padding: 10px 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.button2 {
+    font-family: 'Press Start 2P', cursive;
+    background: #59656F;
+    color: #1D1E2C;
+    margin-top: 10px;
+    border: 1px solid #1D1E2C;
+    padding: 10px 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+button a:link {
+    text-decoration: none;
+}
+
+button a:visited {
+    text-decoration: none;
+    color: #1D1E2C;
+}
+
+button a:hover {
+    text-decoration: none;
+    color: #1D1E2C;
+}
+
+button a:active {
+    text-decoration: none;
+    color: #1D1E2C;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!-----------------------------------------------------------
+    CIS 124: Introduction to JavaScript
+    Scrimba Practice 1, Calculator
+    https://scrimba.com/playlist/p5vWxtd
+
+    Dominique Tepper, 06NOV2022
+------------------------------------------------------------>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deluxe Calculator v2.0</title>
+
+    <!-- External CSS link -->
+	<link rel="stylesheet" href="practice1.css">
+
+    <!-- Google Fonts embed code -->
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header. Dominique Tepper, 06NOV2022 ---------------->
+    <header>
+        <h1>Deluxe Calculator v2.0</h1>
+    </header>
+
+    <!-- Main. Dominique Tepper, 06NOV2022 ------------------>
+    <main>
+
+        <div class="card01"> <!-- Exercise 6. Tepper, 06NOV2022 -->
+            <div> <!-- Operand 1 text box -->
+                <h3>1. Provide two numbers:</h3>
+            </div>
+
+            <div> <!-- Operand 1 text box -->
+                <label for="operand1">Number A:</label>
+                <input type="text" id="operand1">
+                <h5 id="lblErrorMsg1-el"></h5>
+            </div>
+
+            <div> <!-- Operand 2 text box -->
+                <label for="operand2">Number B:</label>
+                <input type="text" id="operand2">
+                <h5 id="lblErrorMsg2-el"></h5>
+            </div>
+
+            <div>
+                <h3>2. Choose an operation:</h3>
+            </div>
+
+            <div>
+                <button onclick="add()">Add</button>
+                <button onclick="subtract()">Subtract</button>
+                <button onclick="multiply()">Multiply</button>
+                <button onclick="divide()">Divide</button>
+            </div>
+
+            <div>
+                <h3>3. <i>Et viola!</i> &nbsp; Result in 2 decimal places.</h3>
+            </div>
+            
+            <div> <!-- Output text box -->
+                <p></p>
+                <label for="result">Result:</label>
+                <input type="text" id="result" disabled>
+            </div>
+
+            <div>
+                <p><button onclick="reset()">Start Over</button><button><a href="index.html">Practice 1</a></button>
+                <p></p>
+            </div>
+
+        </div>
+
+    </main>
+
+    <!-- Footer. Dominique Tepper, 06NOV2022 ------------------>
+    <footer>
+        <div>
+            <h5 id="footer-el"></h5>
+        </div>
+    </footer>
+
+    <script src="calculator2.js"></script>
+
+</body>
+</html>
